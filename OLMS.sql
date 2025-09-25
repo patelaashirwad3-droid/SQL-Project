@@ -1,12 +1,8 @@
---1.CREATE A PROJECT ON ONLINE BASED Library Management System on SQL
---An online library management system offers a user-friendly way of issuing books and also viewing 
---different books and titles available under a category. 
-
---Take the example of your college library, where both teachers and students can issue books. 
---Usually, the number of days within which you have to return the book varies for both the groups. 
---Also, each book has a unique ID, even if they are copies of the same book by the same author. So, 
---a library management system has an entry for every book, capturing who has issued it, the issue
---duration, and the amount of fine, if any.
+1.CREATE A PROJECT ON ONLINE BASED Library Management System on SQL
+An online library management system offers a user-friendly way of issuing books and also viewing different books and titles available under a category. 
+Take the example of your college library, where both teachers and students can issue books. Usually, the number of days within which you have to return the book 
+varies for both the groups. Also, each book has a unique ID, even if they are copies of the same book by the same author. So, a library management system has
+an entry for every book, capturing who has issued it, the issue duration, and the amount of fine, if any.
 
 --1. Analysing Database and Create Conceptual Schemas
 --2. Decompose all table to minimum Space Oriented
@@ -210,6 +206,7 @@ insert into IssueRecords values
 
    -- IssueRecord - Foreign key (Copy_id) references BookCopies (Copy_id)
    -- IssueRecord - Foreign key (User_id) references Users (User_id)
+
 
 
 
