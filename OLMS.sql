@@ -274,7 +274,7 @@ INSERT INTO IssueRecords (Issue_id, Copy_id, user_id, Issue_date, Due_date, Retu
 
 
   -- 📊 Real-World & Business-Level SQL Questions
---🔹 Simple – Data Retrieval
+
 
 select * from Users
 select * from Authors
@@ -502,4 +502,5 @@ from Users u
 join IssueRecords i on u.user_id = i.user_id
 group by u.user_id,u.Name,u.user_type
 order by User_Value_Score desc
+
 
